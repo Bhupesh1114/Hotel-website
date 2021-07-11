@@ -297,4 +297,7 @@ border: 1px solid rgb(216, 213, 213);
     #about-info .info-right{
        margin-top: -50px;
     }
+    #testimonials .container h2{
+        line-height: 40px;
+    }
 }
