@@ -216,6 +216,7 @@ color: #f7c08a;
     color: #fff;
     text-align: center;
     padding-bottom: 40px;
+    margin-top: -50px;
 }
 
 #testimonials .testimonial{
@@ -300,4 +301,19 @@ border: 1px solid rgb(216, 213, 213);
     #testimonials .container h2{
         font-size: 35px;
     }
+
+    #showcase .showcase-content{
+        padding-top: 100px;
+    }
+
+
 }
+
+
+/* Also can be done */
+
+/* Media Query can be added to new stylesheet ,
+We have to add a link tag after our main stylesheet 
+
+ 
+<link rel="stylesheet" media="screen and (max-width:1000px)" href="mobile.css"> */
