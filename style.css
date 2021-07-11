@@ -45,6 +45,11 @@ p{
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.btn:active{
+    transform: scale(0.95);
 }
 
 .btn:hover{
